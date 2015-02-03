@@ -1,0 +1,19 @@
+<html ng-app>
+	<head>
+		<title> Anupam's Angular App</title>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+	</head>
+	
+	<body ng-init="numbers = [0,1,2]">
+		
+		<div>
+			<h1>Angular App</h1>
+			<ul>
+				<li ng-repeat="number in numbers">{{number}}</li>
+			</ul>
+		</div>
+		
+	</body>
+
+</html>
